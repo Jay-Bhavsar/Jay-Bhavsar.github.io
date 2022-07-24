@@ -1,0 +1,156 @@
+/* activities */
+/* * {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+} */
+/* body {
+    background-color: rgb(255, 255, 255);
+} */
+
+.container {
+  max-height: 400px;
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.card {
+  background: rgb(242, 242, 242);
+  width: 300px;
+  background-color: #1087be ;
+  color: white;
+  /* color: rgb(243, 236, 250); */
+  /* font-weight: bold; */
+  /* border: 2px solid black; */
+  margin: 10px;
+  border-radius: 15px;
+  /* box-shadow: 0 5px 20px rgba(0, 0, 0, 0.5); */
+  /* box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px; */
+  /* box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px; */
+
+}
+.card p{
+  font-size: 18px;
+}
+.card h2{
+  font-weight: bolder;
+  font-size: 22px;
+  /* color: black; */
+  font-weight: 800;
+  /* color: rgb(255, 255, 255); */
+}
+
+.card-image {
+  height: 150px;
+  margin-bottom: 15px;
+  background-size: cover;
+  border-radius: 15px 15px 0 0;
+}
+
+.car-1 {
+  background-image: url(https://source.unsplash.com/400x400/?nature);
+}
+.car-2 {
+  background-image: url(https://source.unsplash.com/400x400/?people);
+}
+.car-3 {
+  background-image: url(https://source.unsplash.com/400x400/?animal);
+}
+
+.car-4 {
+  background-image: url(https://source.unsplash.com/400x400/?pet);
+}
+
+.car-5 {
+  background-image: url(https://source.unsplash.com/400x400/?car);
+}
+
+.car-6 {
+  background-image: url(https://source.unsplash.com/400x400/?bike);
+}
+.car-7 {
+  background-image: url(https://source.unsplash.com/400x400/?technology);
+}
+
+/* .card h2 {
+    padding: 10px;
+}
+.card p {
+    padding: 10px;
+
+} */
+/* .card a {
+    background-color: black;
+    color: antiquewhite;
+    /* padding: 15px 20 px; */
+/* display: block;
+    text-align: center;
+    /* margin: 20px 50px; */
+/* text-decoration: none; */
+/* } */
+
+.card:hover {
+  background-color: rgb(62, 62, 62);
+  background-color:#f4873e  ;
+
+  color: rgb(243, 236, 250);
+  cursor: pointer;
+  transform: scale(1.03);
+  transition: all Is ease;
+}
+
+@media (max-width: 740px){
+  .hr h3{
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    /* background-color: red; */
+  }
+  .hr p{
+    font-size: 1rem;
+    /* background-color: blue; */
+  }
+  .conthead{
+font-size: 35px;
+  }
+  .address p{
+    font-size: 1.2rem;
+  }
+  .hr{
+    margin-right: 30px;
+    margin-left: 15px;
+    margin-top: 10px;
+  }
+} 
+@media (max-width:620px){
+  .hr{
+    margin-right: 30px;
+    margin-left: 10px;
+    margin-top: 5px;
+  }
+  .conthead{
+    font-size: 25px;
+      }
+
+}
+@media(max-width:574px){
+  .hr{
+    margin-right: 30px;
+    margin-left: 5px;
+    margin-top: 5px;
+  }
+  .address p{
+    font-size: 1rem;
+  }
+
+
+}
+@media(max-width:425px){
+  .conthead{
+    font-size: 20px;
+  }
+}
+
+

@@ -1,0 +1,10 @@
+{
+  "scripts": {
+    "start": "node js/custom.js"
+  },
+
+  "dependencies": {
+    "bootstrap": "^5.1.3",
+    "chart.js": "^3.7.1"
+  }
+}
