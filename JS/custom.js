@@ -70,12 +70,12 @@ var myChart = new Chart(ctx, {
 var myChart1 = new Chart(cty, {
   type: "bar",
   data: {
-    labels: ["2016", "2017", "2018", "2019", "2020", "2021", "2022"],
+    labels: ["2016", "2017", "2018", "2019", "2020", "2021", "2022","2023"],
     datasets: [
       {
         // label: "Offers",
-        data: [1039, 1057, 868, 1129, 1935, 1994, 2081],
-        barThickness: 21,
+        data: [1039, 1057, 868, 1129, 1935, 1994, 2081,1800],
+        barThickness: 30,
         backgroundColor: ["#1087be"],
       },
       // {
@@ -117,12 +117,12 @@ var myChart1 = new Chart(cty, {
 var myChart2 = new Chart(cta, {
   type: "bar",
   data: {
-    labels: ["2016", "2017", "2018", "2019", "2020", "2021", "2022"],
+    labels: ["2016", "2017", "2018", "2019", "2020", "2021", "2022","2023"],
     datasets: [
       {
         label: "Highest Package",
-        data: [7, 10, 9, 41, 10, 12, 44],
-        barThickness: 21,
+        data: [7, 10, 9, 41, 10, 12, 44,44],
+        barThickness: 30,
         backgroundColor: ["#1087be"],
       },
       // {
@@ -164,12 +164,12 @@ var myChart2 = new Chart(cta, {
 var myChart3 = new Chart(ctb, {
   type: "bar",
   data: {
-    labels: ["2016", "2017", "2018", "2019", "2020", "2021", "2022"],
+    labels: ["2016", "2017", "2018", "2019", "2020", "2021", "2022","2023"],
     datasets: [
       {
         label: "Companies Visited",
-        data: [48, 70, 89, 78, 58, 79, 170],
-        barThickness: 20,
+        data: [48, 70, 89, 78, 58, 79, 170,200],
+        barThickness: 30,
         backgroundColor: ["#1087be"],
       },
     ],
