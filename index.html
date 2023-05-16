@@ -86,7 +86,7 @@
           <img src="img/second.png" class="d-block w-100" alt="..." />
         </div>
         <div class="carousel-item">
-          <img src="img/first.png" class="d-block w-100" alt="...">
+          <img src="img/6th-Convocation-1.jpg" class="d-block w-100" alt="...">
         </div>
       </div>
       <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
@@ -114,7 +114,7 @@
         <div class="flex">
           <h1 class="counter">1971<span>OFFERS</span></h1>
           <h1>OFFERS</h1>
-          <p>OFFERS AS ON 10TH MARCH</p>
+          <p>OFFERS AS ON 5TH MARCH</p>
         </div>
       </div>
       <div class="box2">
@@ -136,7 +136,7 @@
       <div class="box3">
         <img src="img/letter.png" alt="" />
         <div class="flex">
-          <h1 class="counter3">5.4</h1>
+          <h1 class="counter3">5</h1>
           <h1>LPA</h1>
           <p>AVERAGE PACKAGE</p>
         </div>
@@ -171,18 +171,18 @@
     var counter3 = document.querySelector(".counter3");
     var counter4 = document.querySelector(".counter4");
 
-    let count = 1;
+    let count = 0;
     let count1 = 0;
     let count2 = 0;
-    let count3 = 0.4;
+    let count3 = 0;
     let count4 = 0;
 
     setInterval(() => {
-      if (count <= 2071) {
-        count += 10;
+      if (count <= 1824) {
+        count += 2;
         counter.innerText = count;
       }
-    }, 25);
+    }, 1);
 
     setInterval(() => {
       if (count1 <= 43) {
@@ -198,7 +198,7 @@
     }, 10);
     setInterval(() => {
       if (count3 <= 5) {
-        count3 += 0.5;
+        count3 += 1;
         counter3.innerText = count3;
       }
     }, 500);
