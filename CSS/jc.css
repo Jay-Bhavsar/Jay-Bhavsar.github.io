@@ -12851,9 +12851,10 @@ ul {
   background-color: blue;
   color: black;
   background-color: white;
-  background-color: #0d6efd;
+  background-color: #ee1d23;
+  border:2px solid #ee1d23;
   color: white;
-  border-radius: 8px;
+  border-radius: 2px;
   /* border: 2px solid red; */
   padding: 5px 5px;
 
