@@ -74,7 +74,7 @@ var myChart1 = new Chart(cty, {
     datasets: [
       {
         // label: "Offers",
-        data: [1039, 1057, 868, 1129, 1935, 1994, 2081,1800],
+        data: [1039, 1057, 868, 1129, 1935, 1994, 2081,1826],
         barThickness: 30,
         backgroundColor: ["#1087be"],
       },
